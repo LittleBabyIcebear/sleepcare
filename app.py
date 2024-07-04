@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template, url_for
 from flask_cors import CORS
 import pyodbc
 import os
@@ -18,6 +18,14 @@ def get_db_connection():
         f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password}'
     )
     return conn
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/detail')
+def about():
+    return render_template('details.html')
 
 @app.route('/api/events', methods=['GET'])
 def get_events():

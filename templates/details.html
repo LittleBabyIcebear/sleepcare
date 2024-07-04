@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Features</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        th, td {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white py-4">
+        <h1 class="text-center text-3xl">ECG Features for <span id="selected-date"></span></h1>
+    </header>
+    <main class="flex flex-col items-center py-6">
+        <div class="w-full max-w-6xl bg-white rounded-lg shadow-md p-6 mb-4">
+            <button onclick="window.location.href='index.html'" class="bg-blue-600 text-white py-2 px-4 rounded mb-4">
+                Back to Calendar
+            </button>
+            <div class="overflow-x-auto">
+                <table class="min-w-full table-auto border-collapse">
+                    <thead class="bg-gray-700 text-white">
+                        <tr>
+                            <th class="py-2 px-4">Time</th>
+                            <th class="py-2 px-4">HRV</th>
+                            <th class="py-2 px-4">SDNN</th>
+                            <th class="py-2 px-4">RMSSD</th>
+                            <th class="py-2 px-4">SDSD</th>
+                            <th class="py-2 px-4">pNN50</th>
+                            <th class="py-2 px-4">LF/HF</th>
+                            <th class="py-2 px-4">LF</th>
+                            <th class="py-2 px-4">HF</th>
+                            <th class="py-2 px-4">SD1</th>
+                            <th class="py-2 px-4">SD2</th>
+                            <th class="py-2 px-4">RR</th>
+                            <th class="py-2 px-4">Murmur</th>
+                            <th class="py-2 px-4">Sleep Quality</th>
+                            <th class="py-2 px-4">Sleep Apnea</th>
+                        </tr>
+                    </thead>
+                    <tbody id="features-table-body">
+                        <!-- Rows will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="details.js"></script>
+</body>
+</html>
