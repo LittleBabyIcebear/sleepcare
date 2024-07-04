@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 dateClick: function(info) {
                     var date = info.dateStr;
-                    window.location.href = `details.html?date=${date}`;
+                    window.location.href = `/detail?date=${date}`; // Direct to details.html with date parameter
                 }
             });
 

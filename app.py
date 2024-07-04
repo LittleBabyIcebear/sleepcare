@@ -17,7 +17,6 @@ def get_db_connection():
     conn = pyodbc.connect(
         f'DRIVER={driver};SERVER={server};PORT=1433;DATABASE={database};UID={username};PWD={password};Connect Timeout=30'
     )
-
     return conn
 
 @app.route('/')

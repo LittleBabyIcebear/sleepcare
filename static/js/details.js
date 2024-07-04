@@ -1,13 +1,9 @@
-
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     var urlParams = new URLSearchParams(window.location.search);
     var date = urlParams.get('date');
     document.getElementById('selected-date').innerText = date;
 
-    fetch(`https://sleepcare.azurewebsites.net/api/ecg_features?=${date}`)
+    fetch(`/api/ecg_features?date=${date}`)
         .then(response => response.json())
         .then(features => {
             var tableBody = document.getElementById('features-table-body');
