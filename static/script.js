@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
 
-    fetch('http://127.0.0.1:5000/api/events')
+    fetch('https://sleepcare.azurewebsites.net/api/events')
         .then(response => response.json())
         .then(events => {
             console.log('Fetched events:', events); // Debugging line

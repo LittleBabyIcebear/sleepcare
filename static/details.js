@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var date = urlParams.get('date');
     document.getElementById('selected-date').innerText = date;
 
-    fetch(`http://127.0.0.1:5000/api/ecg_features?date=${date}`)
+    fetch(`https://sleepcare.azurewebsites.net/api/ecg_features?=${date}`)
         .then(response => response.json())
         .then(features => {
             var tableBody = document.getElementById('features-table-body');
