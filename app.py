@@ -1,15 +1,16 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pyodbc
+import os
 
 app = Flask(__name__)
 CORS(app)
 
 # Database connection details
-server = 'sleepcare.database.windows.net'
-database = 'sleepcareits'
-username = 'sleepcareadmin'
-password = 'sayasukammsin90=1'
+server = os.environ.get('sleepcare.database.windows.net')
+database = os.environ.get('sleepcareits')
+username = os.environ.get('sleepcareadmin')
+password = os.environ.get('sayasukammsin90=1')
 driver = '{ODBC Driver 17 for SQL Server}'
 
 def get_db_connection():
