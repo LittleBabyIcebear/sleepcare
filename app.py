@@ -7,11 +7,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Database connection details
-server = os.environ.get('sleepcare.database.windows.net')
-database = os.environ.get('sleepcareits')
-username = os.environ.get('sleepcareadmin')
-password = os.environ.get('sayasukammsin90=1')
-driver = '{ODBC Driver 17 for SQL Server}'
+server =   'sleepcare.database.windows.net'
+database = 'sleepcareits'
+username = 'sleepcareadmin'
+password = 'sayasukammsin90=1'
+driver =   '{ODBC Driver 17 for SQL Server}'
 
 def get_db_connection():
     conn = pyodbc.connect(
