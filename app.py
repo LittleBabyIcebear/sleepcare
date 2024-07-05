@@ -49,7 +49,7 @@ class RecordPer5Menit(db.Model):
 def index():
     return render_template('index.html')
 
-@app.route('/api/ecg_features')
+@app.route('/detail')
 def about():
     return render_template('details.html')
 
