@@ -21,7 +21,7 @@ db = SQLAlchemy(app)
 
 class RecordPerDay(db.Model):
     __tablename__ = 'RecordPerDay'
-    id = db.Column(db.Integer, primary_key=True)
+    ID_user = db.Column(db.Integer, primary_key=True)
     time = db.Column(db.DateTime)
     sleep_quality = db.Column(db.Integer)
     sleep_apnea = db.Column(db.Integer)
