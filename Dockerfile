@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose port yang digunakan oleh aplikasi Flask
-EXPOSE 5000
+EXPOSE 8080
 
 # Atur command untuk menjalankan aplikasi Flask saat container dijalankan
 CMD ["python", "app.py"]

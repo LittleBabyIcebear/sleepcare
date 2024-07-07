@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from google.cloud import bigquery
 from datetime import datetime, timedelta
 import uuid
+import os
 
 app = Flask(__name__)
 
@@ -226,4 +227,5 @@ def sleep_data():
     return jsonify({"sleep_data": sleep_data})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+
