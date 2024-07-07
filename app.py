@@ -6,7 +6,7 @@ import uuid
 app = Flask(__name__)
 
 # Inisialisasi BigQuery client
-client = bigquery.Client.from_service_account_json('C:/Database/Sleep Aja Ga Sih!/new apnea/Sleep-Apnea/Flask Model/sleepcare-428605-767355c54dde.json')
+client = bigquery.Client.from_service_account_json('sleepcare-428605-767355c54dde.json')
 
 # Nama dataset dan tabel di BigQuery
 dataset_id = 'my_dataset'

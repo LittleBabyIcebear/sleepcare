@@ -1,5 +1,5 @@
 Flask
 flask-cors
-pyodbc
-sqlalchemy 
 flask-sqlalchemy
+google-cloud-bigquery
+gunicorn
