@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sleepcare-428605",
+  "private_key_id": "767355c54dde6d9ed432a9bd6287b4b3791a5ffc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxjjovJdsWkTLE\n7wx0tk2Q9r5YgWugLOeZ7AoYkqNGFLLpXnkOx0a+kPwtorpKk0dbCv8qqxoBCqAy\nXaz3SVSlp4A/jymdcy+ba82G/33iMTw8eR+zjeVUtxyK4VGLFPlWTnmykBZslHLz\nBGMDstgwQXSOTiaxFyzAl2LxMjRJMs8EfMQVBMQuLP7DzAdpKgJlMiMfuaS0uUJD\n6vnuAByUxGppr/c436Yp7Sz4lbmMuv+XXA64AKAo/Zn+rblzBkYWkpiQ+AAzYYec\nKkGa+pJ0Er4gCMC7czAeb/fDnyGRWbp5OEjbTY5Rlzy0tgDwPYpcalVZvz0Sw+ZF\n4Vd3fysRAgMBAAECggEAAe3mh3r5tLMRyc2Nv80HE+pnoTMJoliD+lH0CakFxd0N\n1Ri+heK0NUNNzuN9a2ydjnajxfu9vHoaI8EFxAA7KP9KACqRPzGOg7IsxLgNCy3s\nIcFDaWQsf4XcbadOw6PEtCsF5HH+e3Ez2lFTplaFZAduSK0Y8/GLOlsX7xN5Zq0F\nbwK3blU7UE48tnq2eS1pT4COEHjkO7pkuX0gY5KVi3kk2oKMdHh5WFygI5w0Jg6d\n9sN+6WiCWo6Ef6c4ajqBiLXNFk4Uq+nCt96evd4y+ggd60PKHgGJijLQgWBJqR2B\nM314bLRYAGKPzoNlpfkgLNGpT1QFk592fgGb1sAjYQKBgQDeJ64iwbk47M+1fYBq\nj6lbTPN5fppcaqo/2Z36w60Jmj7fnhnTURSb9Tyv4AzlvwdthL24SAkQnpUKuJW5\njPa1PStLRU0+Jk+nb/oGTmMHG5dURcNN8dgM1aJ8F38TDaKCoo5zcK1LgkwdqOIM\nCMAcVe0iyhcR7UWbyE5nTWua1QKBgQDMmx1DcCeNfnheSlm8BE1jI8EqbFXMW/of\ng06l2EOzYCh26kCdeFAeKepK2fyV62l3L3zJ/tRqiBuAv4iaAFUDBroZnhltIPYd\nrDxnXL+A8XGTsPic0NXgg5bs/dishkyx61tpICrwoEXEBpLk497crxX0wOozeqLg\nGlFwhYW1TQKBgGhtsK7H7+CxeSYwW6g75fl0H9ORzs/4mBUxn9CcIQAtkLafZDZw\nm8aALknigU2SUdSKnIA+5Hv6f8ctY7x4ZhRmL67PYfMAIVttCNPkDyrtLmK/9IH0\nWIIX/qxkgyiatTTBY0MiyWOAWXVryO6tQllPjwxWgSe9KIaFT03CF/4NAoGAM9Zo\nx5k2rCaKoHj92yDL6n44hmMEKc5zxGAkIOh13pBSMC6RSFQfGEVOUsB/ugv2oHer\nihHCB2uMbEYaecnzv9yIcc0YbAmZ0VK9ywI4kpaZS+3eTvyp80PjjQ+TQcKU087p\nTe0Uc/pnMo7n0I3a/NZvHZ9ytrAva8+/Kl7pzVECgYEAhGPuORZciEoUlKvo3aQP\n/x1gCbTTYfGJqGyolPyWeqa3aydkmmtwuC6SiwvrVXTczmUQjhbxurKvSyutYHa0\nBb1j/QTfU91+9KOd6+kTvIEofQWv4xjTVxgK3irTa3nr6ZlxOKeY9wo/VHP6PNKB\nT9Pm1amyBlgMVcS1V04qoF8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sleepcare@sleepcare-428605.iam.gserviceaccount.com",
+  "client_id": "110776439862659139883",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sleepcare%40sleepcare-428605.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

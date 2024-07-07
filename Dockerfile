@@ -13,6 +13,9 @@ RUN pip install -r requirements.txt
 # Salin seluruh kode aplikasi Flask ke dalam container
 COPY . .
 
+# Salin file kredensial BigQuery ke dalam container
+COPY sleepcare-428605-767355c54dde.json /app/sleepcare-428605-767355c54dde.json
+
 # Expose port yang digunakan oleh aplikasi Flask
 EXPOSE 8080
 
